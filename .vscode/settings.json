@@ -65,7 +65,12 @@
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
+<<<<<<< Updated upstream
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "GhostGame.slnx"
+=======
+    },
+    "dotnet.defaultSolution": "GhostGame.sln"
+>>>>>>> Stashed changes
 }

@@ -571,7 +571,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0046541276, y: 0.9949403, z: 0.08377213, w: 0.055275917}
     speed: 2
+<<<<<<< Updated upstream
     m_Value: {x: -0.0046541276, y: 0.99494034, z: 0.08377213, w: 0.055275917}
+=======
+    m_Value: {x: -0.0046541253, y: 0.9949398, z: 0.08377209, w: 0.05527589}
+>>>>>>> Stashed changes
   m_Size:
     m_Target: 0.0033932324
     speed: 2
@@ -997,7 +1001,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: 70d4ffff
+=======
+      m_ExpandedIDs: fcfaffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1112,9 +1120,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 82c20000
     m_LastClickedID: 49794
     m_ExpandedIDs: 0000000082c2000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 7cae0000
+    m_LastClickedID: 44668
+    m_ExpandedIDs: 000000007cae000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1143,7 +1157,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000082c20000
+=======
+    m_ExpandedIDs: 000000007cae0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1225,7 +1243,11 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 136
+=======
+  controlID: 130
+>>>>>>> Stashed changes
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:

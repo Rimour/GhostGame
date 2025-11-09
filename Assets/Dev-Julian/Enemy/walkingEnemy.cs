@@ -12,7 +12,8 @@ public class WayPoints : MonoBehaviour
     int currentPoint = 0;
     int numOfPoint;
     Transform target;
-    public float velocity = 5; 
+    public float velocity = 5;
+    public float tolerance = 2;
 
     void Start()
     {
@@ -26,5 +27,15 @@ public class WayPoints : MonoBehaviour
     {
         transform.LookAt(target);
         transform.Translate(Vector3.forward * velocity * Time.deltaTime);
+
+        if (Vector3.Distance(target.position, transform.position) < tolerance)
+        {
+            currentPoint++;
+            if (currentPoint >= numOfPoint)
+            {
+                currentPoint = 0;
+            }
+            target = waypoints[currentPoint].transform;
+        }
     }
 }

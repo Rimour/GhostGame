@@ -13,6 +13,11 @@ public class SettingsManager : MonoBehaviour
     [Header("Graphic")]
     public TMP_Dropdown GraphicDropdown;
 
+    void Awake()
+    {
+        // Prevent this GameObject from being destroyed when loading a new scene
+        DontDestroyOnLoad(gameObject);
+    }
     public void Start()
     {
         GraphicDropdown.value = PlayerPrefs.GetInt("GraphicsSettings", 1);

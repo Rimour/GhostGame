@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Dev-Trent/MainMenu.unity
+    guid: 44fe3b9fbc8933f4ead11f77dac27917
+  - enabled: 1
+    path: Assets/Dev-Trent/LevelOne.unity
+    guid: a61eea198e37c4c4c9e3cc427e960616
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
